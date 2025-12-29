@@ -57,7 +57,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // 1. Initialize Realtime Database
-        dbBooks = FirebaseDatabase.getInstance().getReference("books");
+        // NEW CODE (Unique for each user)
+        String userId = auth.getCurrentUser().getUid(); // Get the unique ID (e.g., "AbCd123...")
+        dbBooks = FirebaseDatabase.getInstance().getReference("books").child(userId);
 
         recyclerView = findViewById(R.id.recyclerView);
         btnAddBook = findViewById(R.id.btnAddBook);
