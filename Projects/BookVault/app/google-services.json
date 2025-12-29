@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "275913358830",
+    "project_id": "fir-bookmanager",
+    "storage_bucket": "fir-bookmanager.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275913358830:android:cddaef85927e2190f2a2ff",
+        "android_client_info": {
+          "package_name": "com.example.BookVault"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh--d0qkm7MO7WqzFH1QzluyXoKK0Qtnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275913358830:android:603f89f072026cb0f2a2ff",
+        "android_client_info": {
+          "package_name": "com.example.bookvault"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh--d0qkm7MO7WqzFH1QzluyXoKK0Qtnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
