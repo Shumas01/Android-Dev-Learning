@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ProfileManager" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="btn_style">
+        <item name="android:backgroundTint">@color/btn_light</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="txt_style">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/btn_light</item>
+    </style>
+</resources>
